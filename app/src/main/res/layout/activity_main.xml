@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/districttv"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:text="District :"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/districtsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/mtv"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:text="Mandal :"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/mandalsp"
+            android:layout_marginTop="30dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/vtv"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:text="village :"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/villagesp"
+            android:layout_marginTop="30dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+
+</LinearLayout>
